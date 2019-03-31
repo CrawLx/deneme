@@ -11,11 +11,12 @@ module.exports = client => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giriş yapıldı!`);
   client.user.setStatus("online");
    var oyun = [
-        "🔱Created By Ferdi",
-        "💪 7/24 Aktif!",  
-        "💡 af!botdavet | Botumuzu ekleyin",,
-        "🔥 af!yardım 🔥 + af!botdavet 🔥 + af!desteksunucusu🔥 ",
-        "🏆Prefixim |af!|🏆"
+        "🔱Bot Yapımcısı CrawL 👑",
+        "💪 7/24 Aktif Bot!🤛",  
+        "💡 C!botdavet | Botumuzu ekleyin",,
+        "🔥 C!yardim 🔥 + C!davet 🔥 + C!botdavet + C!canlidestek🔥 ",
+        "🏆Prefixim |C!|🏆",
+        "🇹🇷 Kolay Kullanışlı Türkçe Bot 🇹🇷"
      
     ];
 
@@ -23,6 +24,6 @@ module.exports = client => {
 
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
-        client.user.setActivity(oyun[random], "https://www.twitch.tv/emirhansaracyt");
+        client.user.setActivity(oyun[random], "https://www.twitch.tv/CrawLBot7/24");
         }, 2 * 2500);
 }

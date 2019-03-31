@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
   let user = message.mentions.users.first();
   let modlog = guild.channels.find('name', 'mod-log');//istediğini yaz
   if (!modlog) return message.reply('`mod-log` kanalı oluşturman lazım.');
-  if (reason.length < 1) return message.reply('niye banlıyorsun adamı onu yazaydın.');
+  if (reason.length < 1) return message.reply('Hatalı Kullanım Örnek Kullanım : C!ban @kisi Sebep');
   if (message.mentions.users.size < 1) return message.reply('kimi banlayacağım onu yaz.').catch(console.error);
 
   if (!message.guild.member(user).ban) return message.reply('Yetkilileri sunucudan atamam.');

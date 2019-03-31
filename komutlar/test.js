@@ -14,4 +14,4 @@ module.exports.help = {
   description: '',
   usage: 'test'
 };
-//XiR
+//
